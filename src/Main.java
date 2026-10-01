@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int space = 4;
+        int space = 5;
         for (int i = 0; i < 5; i++){
             for (int k = space; k > 0; k--) {
                 System.out.print(' ');
@@ -12,7 +12,6 @@ public class Main {
             }
                 System.out.println(' ');
                 space--;
-
         }
     }
 }
